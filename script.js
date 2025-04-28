@@ -16,3 +16,9 @@ if(randomNumber < 0.5){
 }
 
 console.log(getComputerChoice());
+
+function getHumanChoice(){
+    let humanChoice = prompt("Rock, Paper or Scissors?");
+}
+
+console.log(getHumanChoice());
